@@ -23,4 +23,5 @@ iron:router
 twbs:bootstrap
 accounts-ui
 accounts-password
-joshowens:accounts-entry
+check
+selaias:accounts-entry

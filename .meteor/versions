@@ -3,6 +3,7 @@ accounts-password@1.1.8
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.1.12
 allow-deny@1.0.4
+anti:i18n@0.4.3
 autopublish@1.0.7
 autoupdate@1.2.9
 babel-compiler@6.6.4
@@ -31,6 +32,7 @@ email@1.0.12
 es5-shim@4.5.10
 fastclick@1.0.11
 geojson-utils@1.0.8
+handlebars@1.0.7
 hot-code-push@1.0.4
 html-tools@1.0.9
 htmljs@1.0.9
@@ -42,10 +44,9 @@ iron:core@1.0.11
 iron:dynamic-template@1.0.12
 iron:layout@1.0.12
 iron:location@1.0.11
-iron:middleware-stack@1.0.11
+iron:middleware-stack@1.1.0
 iron:router@1.0.12
 iron:url@1.0.11
-joshowens:accounts-entry@0.7.3
 jquery@1.11.8
 launch-screen@1.0.11
 less@2.6.0
@@ -75,6 +76,8 @@ reactive-var@1.0.9
 reload@1.1.8
 retry@1.0.7
 routepolicy@1.0.10
+selaias:accounts-entry@0.9.0
+selaias:alerts@0.3.1
 service-configuration@1.0.9
 session@1.1.5
 sha@1.0.7
