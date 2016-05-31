@@ -6,11 +6,14 @@ Template.profile.events({
     }
     if(file){
     fsFile = new FS.File(file)
-    ProfileImages.insert(fsFile, function(err, result){
 
+
+    ProfileImages.insert(fsFile, function(err, result){
     if(err){
     throw new Meteor.Error(err);
-}
-})
+    }else{
+    var imageLoc = 'cfs/files/'
+       }
+});
 }
 });
