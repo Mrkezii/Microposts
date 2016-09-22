@@ -11,7 +11,7 @@ Template.profile.events({
                 if (err) {
                     throw new Meteor.Error(err);
                 } else {
-                    // imageloc = imagelocation
+                    // imageloc = image location
                     var imageLoc = 'cfs/files/ProfileImages/' + result._id;
 
                     UserImages.insert({
