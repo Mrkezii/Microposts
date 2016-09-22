@@ -6,8 +6,8 @@ Meteor.startup(function () {
         waitEmailVerification: false, // Set to true to wait until newly created user's email has been verified.
         passwordSignupFields: 'USERNAME_AND_EMAIL'
     });
+
     Accounts.ui.config({
         passwordSignupFields: 'USERNAME_AND_EMAIL'
-
     });
 });

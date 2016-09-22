@@ -27,3 +27,4 @@ check
 selaias:accounts-entry
 cfs:standard-packages
 cfs:gridfs
+aldeed:autoform
