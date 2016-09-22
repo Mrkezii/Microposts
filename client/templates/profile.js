@@ -1,6 +1,7 @@
 Template.profile.events({
     "submit .editProfile": function (event) {
-        var file = $('#profileImage').get(0).file[0];
+        // use jquery to get the first file
+        var file = $('#profileImage').get(0).files[0];
 
 
         if (file) {
@@ -10,12 +11,16 @@ Template.profile.events({
                 if (err) {
                     throw new Meteor.Error(err);
                 } else {
-                    var imageLoc = 'cfs/files/ProfileImages/';
+                    // imageloc = imagelocation
+                    var imageLoc = 'cfs/files/ProfileImages/' + result._id;
 
                     UserImages.insert({
                         userId: Meteor.userId(),
-                        // username: Meteor.user().username;
+                        username: Meteor.user().username,
+                        image: imageLoc
+
                     });
+                    Router.go('/')
                 }
             });
         }
